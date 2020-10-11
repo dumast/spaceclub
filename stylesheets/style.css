@@ -89,8 +89,12 @@ html, body{
 
 #logo {
   margin: 0px 0px -105px 0px;
+  transition: all;
+  transition-timing-function: ease-in-out;
 }
-
+#logo:hover{
+  transform: scale(1.1);
+}
 #button {
   background-color: white;
   border: none;
@@ -104,7 +108,9 @@ html, body{
   cursor: pointer;
   font-family: Alatsi, sans-serif;
 }
-
+#button:hover{
+ transform: scale(1.1);
+}
 #memberslist {
   color: white ;
   font-family: Alatsi, sans-serif;
